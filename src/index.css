@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+	max-width: 1211px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.links > li {
+	height: 100%;
+	transition: all 0.3s ease-in-out;
+}
+
+.links > li > a {
+	position: relative;
+	padding: 0 0.3rem;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.links > li > a::before {
+	width: 0;
+	position: absolute;
+	content: "";
+	bottom: 0;
+	height: 3px;
+	background-color: #46a358;
+	transition: all 0.3s ease-in-out;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20.11px;
+	color: #3d3d3d;
+}
+.links > li:hover a::before {
+	width: 100%;
+}
+.links > li:hover {
+	background-color: #46a3591a;
+}

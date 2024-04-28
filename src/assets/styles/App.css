@@ -1,0 +1,88 @@
+/* // Thin */
+@font-face {
+	font-display: swap;
+	font-family: "Cera Pro Thin";
+	font-style: normal;
+	font-weight: 300;
+	src: url("../fonts/CeraPro-Thin.woff2") format("woff2");
+}
+
+@font-face {
+	font-display: swap;
+	font-family: "Cera Pro Thin";
+	font-style: normal;
+	font-weight: 300;
+	src: url("../fonts/CeraPro-ThinItalic.woff2") format("woff2");
+}
+
+/* // Light */
+@font-face {
+	font-display: swap;
+	font-family: "Cera Pro Light";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/CeraPro-Light.woff2") format("woff2");
+}
+@font-face {
+	font-display: swap;
+	font-family: "Cera Pro Light";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/CeraPro-LightItalic.woff2") format("woff2");
+}
+/* // Medium */
+@font-face {
+	font-display: swap;
+	font-family: "Cera Pro Medium";
+	font-style: normal;
+	font-weight: 500;
+	src: url("../fonts/CeraPro-Medium.woff2") format("woff2");
+}
+
+@font-face {
+	font-display: swap;
+	font-family: "Cera Pro Medium";
+	font-style: normal;
+	font-weight: 500;
+	src: url("../fonts/CeraPro-MediumItalic.woff2") format("woff2");
+}
+
+/* // Bold */
+@font-face {
+	font-display: swap;
+	font-family: "Cera Pro";
+	font-style: normal;
+	font-weight: 700;
+	src: url("../fonts/CeraPro-Bold.woff2") format("woff2");
+}
+
+/* // Regular  */
+@font-face {
+	font-display: swap;
+	font-family: "Cera Pro";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/CeraPro-Regular.woff2") format("woff2");
+}
+
+@font-face {
+	font-display: swap;
+	font-family: "Cera Pro Black";
+	font-style: normal;
+	font-weight: 900;
+	src: url("../fonts/CeraPro-RegularItalic.woff2") format("woff2");
+}
+
+/* Black */
+@font-face {
+	font-display: swap;
+	font-family: "Cera Pro Black";
+	font-style: normal;
+	font-weight: 900;
+	src: url("../fonts/CeraPro-Bold.woff2") format("woff2");
+}
+
+body,
+html {
+	font-family: "Cera Pro", sans-serif;
+}
